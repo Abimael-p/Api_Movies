@@ -1,5 +1,5 @@
 const { DataTypes} = require('sequelize');
-const { v4: uuid4v } = require('uuid')
+const { v4: uuid4v } = require('uuid');
 const sequelize = require('../utils/connection');
 
 const Actors = sequelize.define('actors', {
